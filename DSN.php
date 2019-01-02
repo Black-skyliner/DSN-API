@@ -6,6 +6,10 @@
  */
 class DSN{
     
+    /**
+     * Token of connection to the DSN API
+     * This token will be expire in one hour
+     */
     private $token;
 
     public function DSN($siret, $lastname, $firstname, $password){
