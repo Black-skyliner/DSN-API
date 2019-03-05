@@ -5,11 +5,5 @@ The DSN API is the interface that allows the declarant's payroll software to aut
 # Authentication
 
 ```php
-$payload = '<identifiants>
-                <siret>' . $siret  . '</siret>
-                <nom>' . $lastname . '</nom>
-                <prenom>' . $firstname . '</prenom>
-                <motdepasse>' . $password . '</motdepasse>
-                <service>25</service>
-            </identifiants>';
+public function DSN($siret, $lastname, $firstname, $password){}
 ```
