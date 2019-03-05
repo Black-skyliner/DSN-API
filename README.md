@@ -4,7 +4,10 @@ L'API DSN est l'interface qui permet au logiciel de paie du déclarant de s'auth
 
 # Authentification
 
-Cette fonction prend en paramétres quatre arguments: le numéro de siret de la société, le nom et le prénom du déclarant, le mot de passe du compte NET-Entreprise
+Cette fonction prend en paramétres quatre arguments: 
+- Numéro de siret de la société
+- Nom et le prénom du déclarant
+- Mot de passe du compte NET-Entreprise
 
 ```php
 public function DSN($siret, $lastname, $firstname, $password)
