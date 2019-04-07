@@ -1,5 +1,5 @@
 ### Connect to the DSN REST API  
-The DSN API provides authentication service to declarants in order to  viewing and downloading declarations documents without having access to [Net-Entreprise portal](net-entreprises.fr).
+The DSN API provides authentication service to declarants in order to  viewing and downloading declarations documents without having access to [Net-Entreprise portal](https://www.net-entreprises.fr/).
 
 #### Authentification
 This function requires 4 inputs:  
