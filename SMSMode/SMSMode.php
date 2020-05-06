@@ -1,5 +1,5 @@
 <?php
-const ERROR_API = "Erreur lors de l'appel d'API";
+const ERROR_API = "Error calling API";
 const URL = "https://api.smsmode.com/http/1.6/";
 const PATH_CREDIT_SMS = "credit.do";
 const PATH_SEND_SMS = "sendSMS.do";
