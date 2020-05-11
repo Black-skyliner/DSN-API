@@ -37,7 +37,7 @@ class ISendPro
      * 
      * @return string
      */
-    public function sendSms($transmitter, string $message, array $recipients = []): string
+    public function sendSms($transmitter, string $message, array $recipients = []): array
     {
         $url = URL . PATH_SEND_SMS;
         $payload = [
