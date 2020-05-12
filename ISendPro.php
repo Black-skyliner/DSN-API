@@ -1,5 +1,4 @@
 <?php
-const ERROR_API = "Error calling API";
 const URL = "https://apirest.isendpro.com/cgi-bin/";
 const PATH_CREDIT_SMS = "credit";
 const PATH_SEND_SMS = "sms";
@@ -23,11 +22,7 @@ class ISendPro
     {
         $url = URL . PATH_CREDIT_SMS . '?keyid=' . $this->accessToken . '&credit=2';
         $response = $this->cURL($url);
-
-        if (!$response) {
-            return ERROR_API;
-        }
-
+        
         return $response;
     }
 
@@ -47,10 +42,6 @@ class ISendPro
             'emetteur' => $transmitter
         ];
         $response = $this->cURL($url, $payload);
-
-        if (!$response) {
-            return ERROR_API;
-        }
 
         return $response;
     }
